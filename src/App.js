@@ -9,15 +9,15 @@ function App() {
       <div className='w-full lg:w-1/2 text-white flex flex-col items-center justify-center p-12 opacity-90 bg-no-repeat bg-center bg-cover'
       style={{backgroundSize: 'cover',
         backgroundImage: `url(${img1})`}}>
-        <h1 className=' text-3xl mb-5 font-semibold opacity-100 text-cyan-500'>Welcome</h1>
+        <h1 className=' text-3xl mb-5 font-semibold opacity-120 text-cyan-500'>Welcome</h1>
         <div>
-          <p className='font-xl opacity-120 font-semibold'>Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.</p>
+          <p className='font-xl opacity-120 '>Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.</p>
         </div>
 
       </div>
       <div className='w-full lg:w-1/2 py-10 lg:py-16 px-6 lg:px-12'>
         <h1 className='text-3xl mb-4 font-semibold'>Registration</h1>
-        <p className='mb-4 font-sm lg:font-medium'>Get registered today. It only takes a minute and it's free</p>
+        <p className='mb-4 font-sm '>Get registered today. It only takes a minute and it's free</p>
         <form>
           <div className='grid grid-cols-2 gap-5'>
             <input type = 'text' className = 'border border-gray-400 py-1 px-2  rounded-sm' placeholder = 'First Name'/>
