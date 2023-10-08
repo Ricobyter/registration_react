@@ -16,7 +16,7 @@ function App() {
 
       </div>
       <div className='w-full lg:w-1/2 py-10 lg:py-16 px-6 lg:px-12'>
-        <h1 className='text-3xl mb-4'>Registration</h1>
+        <h1 className='text-3xl mb-4 font-semibold'>Registration</h1>
         <p className='mb-4 font-sm lg:font-medium'>Get registered today. It only takes a minute and it's free</p>
         <form>
           <div className='grid grid-cols-2 gap-5'>
